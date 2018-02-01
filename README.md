@@ -9,4 +9,4 @@ commandmonitoring.view: コマンドを表示する権利です。
 
 
 # Download
-ダウンロード: <a href="https://goo.gl/WRE7Xh">v1.1<a/>
+ダウンロード: <a href="https://goo.gl/okCAxg">v1.2<a/>
