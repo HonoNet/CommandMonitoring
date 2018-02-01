@@ -57,7 +57,7 @@ public class Main extends JavaPlugin implements Listener {
 				plugin.saveConfig();
 				plugin.reloadConfig();
 
-				sender.sendMessage(this.getPrefix() + "§aコマンド送信表示を " + (b ? "有効化" : "§c無効化") + " §aしました。");
+				sender.sendMessage(this.getPrefix() + "§aコマンド送信表示を " + (b ? "§b有効化" : "§c無効化") + " §aしました。");
 				return true;
 			}
 
