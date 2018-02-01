@@ -1,0 +1,6 @@
+Toggle: true
+Layout: "&7[CM] %player%: %command%"
+
+DisableCommands:
+  - /login
+  - /register

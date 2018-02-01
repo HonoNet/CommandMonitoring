@@ -1,0 +1,9 @@
+main: net.simplyrin.hononet.cm.Main
+version: 1.0
+name: CommandMonitoring
+depend: [PermissionsEx]
+author: SimplyRin
+
+commands:
+  cm:
+    usage: /cm <args>
