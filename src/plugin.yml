@@ -2,7 +2,7 @@ main: net.simplyrin.hononet.cm.Main
 version: 1.1
 name: CommandMonitoring
 depend: [PermissionsEx]
-author: SimplyRin
+authors: [SimplyRin]
 
 commands:
   cm:
