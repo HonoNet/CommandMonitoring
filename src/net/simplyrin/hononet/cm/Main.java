@@ -42,7 +42,8 @@ public class Main extends JavaPlugin implements Listener {
 		plugin.getServer().getPluginManager().registerEvents(this, this);
 	}
 
-	public boolean oncommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
+	@Override
+	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
 		if(!sender.hasPermission("commandmonitoring.use")) {
 			sender.sendMessage(this.getPrefix() + "§cYou do not have access to this command");
 			return true;
