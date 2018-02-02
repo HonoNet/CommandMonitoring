@@ -110,16 +110,16 @@ public class Main extends JavaPlugin implements Listener {
 
 		String layout = plugin.getConfig().getString("Toggle");
 
-		layout = layout.replaceAll("%player", player.getName());
-		layout = layout.replaceAll("%command", command);
+		layout = layout.replace("%player", player.getName());
+		layout = layout.replace("%command", command);
 
 		try {
-			layout = layout.replaceAll("%prefix", PermissionsEx.getUser(player).getGroups()[0].getPrefix());
+			layout = layout.replace("%prefix", PermissionsEx.getUser(player).getGroups()[0].getPrefix());
 		} catch (Exception e) {
 		}
 
 		try {
-			layout = layout.replaceAll("%suffix", PermissionsEx.getUser(player).getGroups()[0].getSuffix());
+			layout = layout.replace("%suffix", PermissionsEx.getUser(player).getGroups()[0].getSuffix());
 		} catch (Exception e) {
 		}
 
