@@ -139,7 +139,7 @@ public class Main extends JavaPlugin implements Listener {
 				return;
 			}
 
-			if(!plugin.getConfig().getBoolean("Enable")) {
+			if(!plugin.getConfig().getBoolean("Toggle")) {
 				return;
 			}
 
