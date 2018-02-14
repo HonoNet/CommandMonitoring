@@ -108,7 +108,7 @@ public class Main extends JavaPlugin implements Listener {
 		Player player = event.getPlayer();
 		String command = event.getMessage();
 
-		String layout = plugin.getConfig().getString("Toggle");
+		String layout = plugin.getConfig().getString("Layout");
 
 		layout = layout.replace("%player", player.getName());
 		layout = layout.replace("%command", command);
